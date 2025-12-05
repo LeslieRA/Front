@@ -1,7 +1,11 @@
 import axios from 'axios';
 
-// Usamos el puerto y la ruta que me proporcionaste
-const API_BASE_URL = "http://localhost:7076/api/empleado"; 
+// 🚀 Usamos la ruta de tu microservicio desplegado en Railway
+// Se asume que el endpoint base para empleados es /api/empleado
+const API_BASE_URL = "https://render-production-d894.up.railway.app/api/empleado"; 
+
+// Si tu microservicio ya maneja la entidad 'reservaciones', y este es el servicio de 'empleados'
+// te sugiero renombrar este archivo a 'empleadoService.js' para mayor claridad.
 
 // --- Funciones CRUD completas para Empleado ---
 
