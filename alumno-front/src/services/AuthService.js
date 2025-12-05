@@ -1,8 +1,7 @@
 import axios from 'axios';
 
 // La URL de tu backend de autenticación (puerto 7076)
-const AUTH_API_URL = "http://localhost:7076/api/auth";
-
+const AUTH_API_URL = "https://render-production-d894.up.railway.app/api/auth";
 /**
  * Llama al endpoint /login.
  * loginRequest debe ser: { username, password }
